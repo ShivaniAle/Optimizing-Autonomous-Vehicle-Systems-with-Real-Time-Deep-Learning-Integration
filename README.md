@@ -7,3 +7,4 @@ To use the compressed `train.p` file:
    ```bash
    gzip -d train.p.gz
 
+# Run the app for vehicle detection folder separately.
