@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Results</title>
+</head>
+<body>
+    <h1>Detection Results</h1>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="640" height="480">
+    <p>Traffic Sign Prediction: {{ traffic_sign_prediction }}</p>
+    <p>Detected Vehicles: {{ vehicle_labels }}</p>
+</body>
+</html>

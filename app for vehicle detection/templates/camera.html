@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Video Stream</title>
+</head>
+<body>
+    <h1>Real-Time Camera Feed with Object Detection</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    <br><br>
+    <!-- Button to stop the video feed -->
+    <a href="{{ url_for('stop_video') }}">Stop Video</a>
+</body>
+</html>
